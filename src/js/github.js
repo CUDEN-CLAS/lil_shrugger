@@ -82,7 +82,7 @@ let fetchData = function () {
  * @returns {Array}
  */
 function getGitHubRepos() {
-  currentURL = 'https://api.github.com/orgs/CuBoulder/repos?per_page=100';
+  currentURL = 'https://api.github.com/orgs/CUDEN-CLAS/repos?per_page=100';
 
   // Pass the resolved promise along.
   return fetchData()

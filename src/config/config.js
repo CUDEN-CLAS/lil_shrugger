@@ -49,8 +49,8 @@ const store = new Vuex.Store({
     expressEnvironments: {
       Local: 'https://express.local/',
       Dev: 'https://www-dev.colorado.edu/',
-      Test: 'https://clas-testlocal.ucdenver.pvt/',
-      Prod: 'https://clas-test.ucdenver.edu/'
+      Test: 'http://clas-test.ucdenver.pvt/',
+      Prod: 'http://clas-test.ucdenver.edu/'
     },
     editContent: {},
     recordsToShow: 10,
