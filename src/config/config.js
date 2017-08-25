@@ -43,14 +43,14 @@ const store = new Vuex.Store({
     atlasEnvironments: {
       Local: 'https://inventory.local/',
       Dev: 'https://osr-atlas01.int.colorado.edu/atlas/',
-      Test: 'https://osr-atlas02.int.colorado.edu/atlas/',
-      Prod: 'https://osr-atlas03.int.colorado.edu/atlas/'
+      Test: 'https://clas-invtest.ucdenver.pvt/',
+      Prod: 'https://clas-invprod.ucdenver.edu/'
     },
     expressEnvironments: {
       Local: 'https://express.local/',
       Dev: 'https://www-dev.colorado.edu/',
-      Test: 'https://www-test.colorado.edu/',
-      Prod: 'https://www.colorado.edu/'
+      Test: 'https://clas-testlocal.ucdenver.pvt/',
+      Prod: 'https://clas-test.ucdenver.edu/'
     },
     editContent: {},
     recordsToShow: 10,
