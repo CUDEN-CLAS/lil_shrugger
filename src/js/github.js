@@ -131,7 +131,7 @@ function getGitHubRepos() {
  * @returns {Array}
  */
 function getRepoBranches(repo) {
-  currentURL = 'https://api.github.com/repos/CuBoulder/' + repo + '/branches?per_page=100';
+  currentURL = 'https://api.github.com/repos/CUDEN-CLAS/' + repo + '/branches?per_page=100';
 
   return fetchData()
     .then(handleErrors)
@@ -162,7 +162,7 @@ function getLatestCommit(repo, that = null) {
     repo = 'drupal-7.x';
   }
 
-  return fetch('https://api.github.com/repos/CuBoulder/' + repo + '/commits', myInit)
+  return fetch('https://api.github.com/repos/CUDEN-CLAS/' + repo + '/commits', myInit)
     .then(handleErrors)
     .then(response => response.json())
     .then(function (data) {
